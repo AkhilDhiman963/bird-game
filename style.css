@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    width: 80%;
+    height: 90%;
+    background-color: #6EBEC9;
+    position: relative;
+    overflow: hidden;
+}
+
+.bird-png{
+    height: 80px;
+    position: absolute;
+    object-fit: cover;
+    /* background-color: red; */
+}
+
+.pipe{
+    width: 40px;
+    background-color: green;
+    position: absolute;
+}
